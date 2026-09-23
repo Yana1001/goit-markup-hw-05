@@ -9,7 +9,9 @@
 }
 .footer-info {
   display: block;
-  max-width: 264px;
+  width: 264px;
+  height: 112px;
+  margin-right: 120px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -31,6 +33,7 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 16px;
+  margin-right: 83px;
 }
 .footer-social {
   color: #fff;
@@ -71,6 +74,7 @@
   background-color: #31d0aa;
 }
 .footer-subscribe {
+  margin-left: 0;
 }
 .footer-form {
   display: flex;
@@ -82,12 +86,15 @@
   height: 40px;
   padding: 8px 16px;
 
-  color: #fff;
-
   background-color: transparent;
   outline: transparent;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #fff;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border-color;
@@ -117,7 +124,7 @@
   transition-property: background-color;
 }
 .btn-footer:hover,
-.btn-footer :focus {
+.btn-footer:focus {
   background-color: #31d0aa;
 }
 .subscribe-icon {
